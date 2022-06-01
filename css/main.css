@@ -215,6 +215,11 @@ body{
     padding-bottom: 10px;
 }
 
+.services__list{
+    display: flex;
+    justify-content: center;
+}
+
 
 .services__contents{
     width: 949px;
@@ -260,6 +265,10 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
     border-radius: 15px;
+}
+
+.services__list__item:nth-child(4), .services__list__item:nth-child(5){
+    margin-top: 50px;
 }
 
 
